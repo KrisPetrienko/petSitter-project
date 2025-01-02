@@ -6,10 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "npm run deploy",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "@coreui/coreui": "^5.2.0",
     "@coreui/react": "^5.4.1",
     "@reduxjs/toolkit": "^2.5.0",
@@ -17,9 +21,9 @@
     "bootstrap": "^5.3.3",
     "motion": "^11.13.1",
     "prop-types": "^15.8.1",
-    "react": "^18.3.1",
+    "react": "^19.0.0",
     "react-bootstrap": "^2.10.6",
-    "react-dom": "^18.3.1",
+    "react-dom": "^19.0.0",
     "react-media": "^1.10.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^6.28.0",

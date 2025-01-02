@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { questions } from "../../data/data.js";
 
 
-const images = import.meta.glob("../images/*.jpg", { eager: true });
+const images = import.meta.glob('../../images/question-card-img/*.jpg', { eager: true });
 
 export function QuestionCard({ id }) {
   const questionData = questions.find((item) => item.id === id);
@@ -19,7 +19,7 @@ export function QuestionCard({ id }) {
 
   const { question, answer } = questionData;
 
-  const getImage = (id) => images[`../images/${id}.jpg`]?.default;
+  const getImage = (id) => images[`../../images/question-card-img/${id}.jpg`]?.default;
 
   return (
     <>

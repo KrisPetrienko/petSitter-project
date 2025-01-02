@@ -3,7 +3,11 @@ import { questions } from "../../data/data.js";
 import { motion } from "motion/react";
 
 
+const images = import.meta.glob('../../images/question-card-img/*.jpg', { eager: true });
+
 function Card({ id, question, theme }) {
+  const getImage = (id) => images[`../../images/question-card-img/${id}.jpg`]?.default;
+
   return (
     <li className={`card ${theme}`}>
       <div className="card-content-container">
@@ -12,7 +16,7 @@ function Card({ id, question, theme }) {
             className="card-image-container"
             layoutId={`card-image-container-${id}`}
           >
-            <img className="card-image" src={`src/images/${id}.jpg`} alt="" />
+            <img className="card-image" src={getImage(id)} alt={question} />
           </motion.div>
           <motion.div
             className="title-container"

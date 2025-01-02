@@ -3,7 +3,7 @@
 I created my own pet design project at my discretion (my goal was not design, but functionality).
 
 
-Tools that were used to implement the project:
+<strong> Tools that were used to implement the project: </strong>
 - React Hooks;
 - React Router;
 - Farmer motion for animation;

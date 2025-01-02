@@ -1,0 +1,118 @@
+.form-group-input {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+.modal-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;  
+}
+
+.form-container {
+  position: relative;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 450px;
+  max-height: 90%; 
+  overflow-y: auto; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  background: linear-gradient(180deg, #DCF9E0 0%, #FFFFFF 30.21%);
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.close-form_button {
+  color: black;
+  float: right;
+  border: none;
+  background-color: inherit;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.close-form_button:hover {
+  color: #df2121;
+}
+
+.close-form_btn {
+  margin: 1rem 2rem;
+  padding: 5px;
+  background-color: inherit;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px black;
+}
+
+.form-wrapper_group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.form-input:focus + label {
+  font-size: 1.1rem;
+  color: #4CAF50;
+  transform: translateY(-20px);
+  font-weight: bold;
+}
+
+.form-submit-btn {
+  padding: 12px 20px;
+  background-color: #3bbe3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit-btn:hover {
+  background-color: #45a049;
+}
+
+.modal-close {
+  text-align: center;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}

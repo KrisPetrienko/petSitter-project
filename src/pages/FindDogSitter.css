@@ -1,0 +1,32 @@
+.page {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-search {
+  margin-top: 3rem;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-image {
+  width: 35rem;
+  height: 24rem;
+  filter: drop-shadow(10px 5px 5px rgb(1, 47, 48));
+}
+
+@media (max-width: 1200px) {
+  .page {
+    flex-wrap: wrap-reverse;
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  .page-image {
+    width: 25rem;
+    height: 17rem;
+  }
+}

@@ -15,7 +15,8 @@ Css classes were used to style the project. Instead of css classes, you could al
 - css modules (very popular in modern projects),
 - Tailwind etc.
 
-  Also, to demonstrate understanding and skills, the project was made Adaptive, using Media queries, for different types of screens.
+  
+Also, to demonstrate understanding and skills, the project was made Adaptive, using Media queries, for different types of screens.
 
   
 ![image](https://github.com/user-attachments/assets/95815ef5-3571-4db8-b399-2fa49b09ebfd)

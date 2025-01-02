@@ -1,24 +1,25 @@
-# React + Vite
+# React + Vite Pet Project
 
-I created my own pet design project at my discretion (my goal was not design, but functionality).
+This is my pet design project, created to demonstrate functionality rather than design. Below is a detailed overview of the tools and technologies used.
+
+## 🛠️ Tools and Technologies
+
+- **React Hooks**: For managing state and side effects.
+- **React Router**: To implement navigation between pages.
+- **Framer Motion**: For smooth animations and transitions.
+- **Redux Toolkit**: Used to mimic an authorization page. (Note: Implementation is partial.)
+
+## 🎨 Styling
+
+The project is styled using **CSS classes**. Alternatively, the following styling methods could have been used:
+- **Sass preprocessors**
+- **CSS Modules** (widely used in modern projects)
+- **Tailwind CSS**, etc.
+
+### Responsive Design
+To showcase adaptive skills, the project is fully responsive and optimized for different screen sizes using **Media Queries**.
 
 
-<strong> style={color: "red"} Tools that were used to implement the project: </strong>
-- React Hooks;
-- React Router;
-- Farmer motion for animation;
-- Redux Toolkit (I made an imitation of the authorization page using the Redux Toolkit, but not fully).
-
-  
-<strong>Css classes were used to style the project. Instead of Сss classes, you could also apply:</strong>
-- Sass preprocessors,
-- Сss modules (very popular in modern projects),
-- Tailwind etc.
-
-  
-Also, to demonstrate understanding and skills, the project was made Adaptive, using Media queries, for different types of screens.
-
-  
 ![image](https://github.com/user-attachments/assets/95815ef5-3571-4db8-b399-2fa49b09ebfd)
 ![image](https://github.com/user-attachments/assets/cd653b62-6776-40ab-a458-688773f0178c)
 ![image](https://github.com/user-attachments/assets/82e56f11-70eb-4bb8-ac16-cbf6dc9ad0df)

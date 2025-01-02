@@ -10,9 +10,9 @@ Tools that were used to implement the project:
 - Redux Toolkit (I made an imitation of the authorization page using the Redux Toolkit, but not fully).
 
   
-Css classes were used to style the project. Instead of css classes, you could also apply:
+Css classes were used to style the project. Instead of Сss classes, you could also apply:
 - Sass preprocessors,
-- css modules (very popular in modern projects),
+- Сss modules (very popular in modern projects),
 - Tailwind etc.
 
   

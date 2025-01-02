@@ -2,13 +2,15 @@
 
 I created my own pet design project at my discretion (my goal was not design, but functionality).
 
+
 Tools that were used to implement the project:
 - React Hooks;
 - React Router;
 - Farmer motion for animation;
 - Redux Toolkit (I made an imitation of the authorization page using the Redux Toolkit, but not fully).
 
-  Css classes were used to style the project. Instead of css classes, you could also apply:
+  
+Css classes were used to style the project. Instead of css classes, you could also apply:
 - Sass preprocessors,
 - css modules (very popular in modern projects),
 - Tailwind etc.

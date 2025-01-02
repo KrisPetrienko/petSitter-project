@@ -10,7 +10,7 @@ I created my own pet design project at my discretion (my goal was not design, bu
 - Redux Toolkit (I made an imitation of the authorization page using the Redux Toolkit, but not fully).
 
   
-Css classes were used to style the project. Instead of Сss classes, you could also apply:
+<strong>Css classes were used to style the project. Instead of Сss classes, you could also apply:</strong>
 - Sass preprocessors,
 - Сss modules (very popular in modern projects),
 - Tailwind etc.
